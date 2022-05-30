@@ -1,0 +1,19 @@
+.BrandCards {
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+  h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #101010;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .brand {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+  }
+}

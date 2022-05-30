@@ -1,0 +1,42 @@
+.Selector {
+  margin-bottom: 35px;
+  margin-top: 15px;
+
+  span {
+    color: #f01f30;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  &.invalid label {
+    color: #f01f30;
+  }
+
+  label {
+    display: block;
+    font-size: 18px;
+    color: #101010;
+    margin-left: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  select {
+    padding: 13px 20px;
+    border-radius: 20px;
+    width: 100%;
+    border: none;
+    background: rgba($color: #fff, $alpha: 0.6);
+    outline: none;
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #444;
+
+    option {
+      border: none;
+      outline: none;
+      padding: 8px 15px;
+      background: #fff;
+    }
+  }
+}

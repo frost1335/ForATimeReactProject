@@ -1,0 +1,20 @@
+.Banner {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 40px;
+
+  .banner_card {
+    width: 27%;
+    height: 180px;
+
+    img {
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

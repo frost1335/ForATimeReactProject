@@ -1,0 +1,90 @@
+.Admin {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+
+  .admin_navbar {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    padding: 15px;
+    border-bottom: 1px solid #444;
+    height: 75px;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+
+      li {
+        margin: 0 15px;
+
+        a,
+        button {
+          display: block;
+          padding: 10px 20px;
+          font-size: 18px;
+          color: #444;
+          border: none;
+          background: transparent;
+          font-weight: 500;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .admin_corner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 30px;
+
+      span {
+        font-size: 17px;
+        font-weight: 600;
+        color: #101010;
+      }
+      p {
+        font-size: 15px;
+        color: #444;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .admin_menu {
+    width: 25%;
+    border-right: 1px solid #444;
+    overflow: auto;
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      list-style: none;
+
+      .menu_item {
+        display: flex;
+        justify-content: flex-start;
+        flex-grow: 1;
+        align-items: center;
+        width: 100%;
+        margin: 10px 0;
+
+        a {
+          width: 100%;
+          display: block;
+          padding: 15px 50px;
+          color: #444;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .admin_body {
+    width: 75%;
+  }
+}

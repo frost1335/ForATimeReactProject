@@ -1,0 +1,127 @@
+.Footer {
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  background: #383838;
+
+  .footer_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 0 25px;
+  }
+
+  .footer_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+    p {
+      color: #838383;
+    }
+
+    a {
+      color: #838383;
+      font-size: 16px;
+      text-decoration: none;
+
+      &:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .footerBottom {
+    border-top: 1px solid #000;
+  }
+
+  .footer_logo .logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+  }
+
+  .footer_links ul {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    list-style: none;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    li {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 21px;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+  }
+
+  .footer_service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 21px;
+      color: #fff;
+    }
+
+    .icon {
+      width: 100%;
+      display: flex;
+      flex-grow: 1;
+      justify-content: space-between;
+      align-items: center;
+
+      .lang {
+        color: #838383;
+        font-size: 22px;
+      }
+
+      span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #fff;
+        transition: 0.3s all;
+        cursor: pointer;
+
+        &:hover {
+          font-weight: 700;
+          color: #ffa542;
+        }
+      }
+    }
+  }
+
+  .footer_social {
+    .icons {
+      display: flex;
+      align-items: center;
+      font-size: 32px;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      svg {
+        margin: 0 7px;
+      }
+    }
+  }
+}
