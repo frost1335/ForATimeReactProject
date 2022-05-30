@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { slide } from "../../images";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -11,8 +10,6 @@ import "./Slider.scss";
 import { Pagination, Navigation, Autoplay } from "swiper";
 import { useDispatch, useSelector } from "react-redux";
 import { getSliders } from "../../actions";
-
-const arr = [slide, slide, slide, slide, slide, slide, slide];
 
 const Slider = () => {
   const dispatch = useDispatch();

@@ -11,6 +11,8 @@ const Admin = (props) => {
 
   const [error, setError] = useState("");
 
+  console.log(error.message);
+
   useEffect(() => {
     if (!localStorage.getItem("authData")) {
       return navigate("/admin/auth");
