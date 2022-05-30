@@ -1,1 +1,6 @@
-/api/*  https://sheltered-savannah-53157.herokuapp.com/api/
+/api/shop/all/  https://sheltered-savannah-53157.herokuapp.com/api/shop/all/
+/api/product/  https://sheltered-savannah-53157.herokuapp.com/api/product/
+/api/category/  https://sheltered-savannah-53157.herokuapp.com/api/category/
+/api/shop/  https://sheltered-savannah-53157.herokuapp.com/api/shop/
+/api/shop/all  https://sheltered-savannah-53157.herokuapp.com/api/
+/api/shop/all  https://sheltered-savannah-53157.herokuapp.com/api/
