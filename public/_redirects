@@ -1,1 +1,1 @@
-/api/*  https://sheltered-savannah-53157.herokuapp.com/:splat  200
+/api/*  https://sheltered-savannah-53157.herokuapp.com/api/:splat  200
